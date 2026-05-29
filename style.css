@@ -49,13 +49,11 @@ nav{
 
 
 .hero{
-    height:220px;
+    height:350px;
     background-image:url('banner.jpg');
     background-size:cover;
-    background-position:center center;
-    border-bottom:3px solid #e5e7eb;
+    background-position:center;
 }
-
 .hero{
     width:100%;
 }
