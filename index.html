@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,7 +7,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Nandhini K | IIT Madras</title>
+<title>Nandhini K | Home</title>
 
 <style>
 
@@ -20,7 +21,7 @@
 body{
     background:#f5f5f5;
     color:#222;
-    line-height:1.7;
+    line-height:1.8;
 }
 
 /* NAVBAR */
@@ -39,7 +40,7 @@ nav{
 }
 
 .logo{
-    font-size:34px;
+    font-size:30px;
     font-weight:bold;
     color:#111827;
 }
@@ -48,7 +49,7 @@ nav{
     text-decoration:none;
     color:#111827;
     margin-left:30px;
-    font-size:18px;
+    font-size:17px;
     transition:0.3s;
 }
 
@@ -59,7 +60,7 @@ nav{
 /* HERO */
 
 .hero{
-    height:380px;
+    height:350px;
     background-image:url('banner.jpg');
     background-size:cover;
     background-position:center;
@@ -73,18 +74,18 @@ nav{
     margin:auto;
     display:flex;
     gap:50px;
-    margin-top:-90px;
+    margin-top:-80px;
     padding-bottom:60px;
 }
 
-/* LEFT PROFILE */
+/* SIDEBAR */
 
 .sidebar{
     width:320px;
     background:white;
     padding:25px;
     border-radius:10px;
-    box-shadow:0 4px 15px rgba(0,0,0,0.1);
+    box-shadow:0 4px 15px rgba(0,0,0,0.08);
     height:fit-content;
 }
 
@@ -95,58 +96,54 @@ nav{
 }
 
 .sidebar h2{
-    font-size:38px;
-    margin-bottom:10px;
+    font-size:34px;
     color:#111827;
+    margin-bottom:10px;
 }
 
 .sidebar p{
-    margin-bottom:15px;
-    font-size:18px;
-}
-
-.sidebar a{
-    color:#dc2626;
-    text-decoration:none;
+    margin-bottom:12px;
+    color:#4b5563;
 }
 
 .social-links{
-    margin-top:25px;
+    margin-top:20px;
 }
 
 .social-links a{
     display:block;
-    margin-bottom:12px;
+    margin-bottom:10px;
+    text-decoration:none;
     color:#2563eb;
 }
 
-/* MAIN CONTENT */
+/* CONTENT */
 
 .content{
     flex:1;
     background:white;
     padding:50px;
     border-radius:10px;
-    box-shadow:0 4px 15px rgba(0,0,0,0.1);
+    box-shadow:0 4px 15px rgba(0,0,0,0.08);
 }
 
 .content h1{
-    font-size:70px;
-    margin-bottom:20px;
+    font-size:55px;
     color:#111827;
+    margin-bottom:25px;
 }
 
 .content h3{
-    font-size:34px;
-    margin-top:50px;
-    margin-bottom:20px;
+    font-size:30px;
     color:#1d4ed8;
+    margin-top:40px;
+    margin-bottom:20px;
 }
 
 .content p{
-    font-size:21px;
-    margin-bottom:25px;
+    font-size:20px;
     color:#374151;
+    margin-bottom:20px;
 }
 
 .content ul{
@@ -154,34 +151,43 @@ nav{
 }
 
 .content li{
-    margin-bottom:15px;
-    font-size:20px;
+    margin-bottom:12px;
+    font-size:19px;
 }
 
-/* BUTTON */
+.highlight{
+    color:#2563eb;
+    font-weight:bold;
+}
+
+/* BUTTONS */
+
+.button-group{
+    margin-top:30px;
+}
 
 .btn{
     display:inline-block;
-    margin-top:20px;
+    margin-right:15px;
+    margin-bottom:10px;
     background:#2563eb;
     color:white;
-    padding:14px 28px;
-    border-radius:8px;
+    padding:12px 22px;
+    border-radius:6px;
     text-decoration:none;
-    font-size:18px;
 }
 
 .btn:hover{
-    background:#1e40af;
+    background:#1d4ed8;
 }
 
 /* FOOTER */
 
 footer{
     text-align:center;
-    padding:30px;
     background:#111827;
     color:white;
+    padding:25px;
 }
 
 /* MOBILE */
@@ -198,7 +204,7 @@ footer{
     }
 
     .content h1{
-        font-size:50px;
+        font-size:40px;
     }
 
     nav{
@@ -214,8 +220,6 @@ footer{
 
 <body>
 
-<!-- NAVBAR -->
-
 <nav>
 
     <div class="logo">
@@ -223,24 +227,19 @@ footer{
     </div>
 
     <div class="nav-links">
-        <a href="#about">About</a>
-        <a href="#research">Research</a>
-        <a href="#projects">Projects</a>
-        <a href="#publications">Publications</a>
-        <a href="#contact">Contact</a>
+        <a href="index.html">Home</a>
+        <a href="research.html">Research</a>
+        <a href="publications.html">Publications</a>
+        <a href="education.html">Education</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
     </div>
 
 </nav>
 
-<!-- HERO -->
-
 <div class="hero"></div>
 
-<!-- MAIN -->
-
 <div class="container">
-
-    <!-- SIDEBAR -->
 
     <div class="sidebar">
 
@@ -258,13 +257,11 @@ footer{
             IIT Madras
         </p>
 
-        <p>
-            <a href="mailto:vksnandhini@gmail.com">
-                vksnandhini@gmail.com
-            </a>
-        </p>
-
         <div class="social-links">
+
+            <a href="mailto:vksnandhini@gmail.com">
+                Email
+            </a>
 
             <a href="https://github.com/Nandhini-Girija" target="_blank">
                 GitHub
@@ -282,118 +279,76 @@ footer{
 
     </div>
 
-    <!-- CONTENT -->
-
     <div class="content">
 
-        <section id="about">
+        <h1>About Me</h1>
 
-            <h1>About Me</h1>
+        <p>
+            I am currently a
+            <span class="highlight">
+            PhD Scholar at IIT Madras
+            </span>
+            working on diffusion models, inverse problems,
+            probabilistic generative modeling, and scientific
+            machine learning.
+        </p>
 
-            <p>
-                I am a PhD Scholar at IIT Madras working in
-                diffusion models,
-                inverse problems,
-                probabilistic generative modeling,
-                and scientific machine learning.
-            </p>
+        <p>
+            My research focuses on developing principled
+            generative methods for solving inverse problems
+            in imaging and sensing systems. I am particularly
+            interested in diffusion-based generative models,
+            Bayesian inference, uncertainty quantification,
+            and scientific AI.
+        </p>
 
-            <p>
-                My research focuses on score-based generative models,
-                Bayesian inference,
-                imaging reconstruction,
-                and AI systems for scientific applications.
-            </p>
+        <p>
+            Prior to joining IIT Madras, I completed my
+            M.Tech in Signal Processing at NIT Calicut,
+            graduating with a Gold Medal and a CGPA of 9.88.
+        </p>
 
-        </section>
+        <p>
+            My long-term goal is to build trustworthy AI
+            systems for scientific discovery, imaging,
+            and autonomous sensing applications.
+        </p>
 
-        <section id="research">
+        <h3>Research Interests</h3>
 
-            <h3>Research Interests</h3>
+        <ul>
+            <li>Diffusion Models</li>
+            <li>Inverse Problems</li>
+            <li>Scientific Machine Learning</li>
+            <li>Bayesian Inference</li>
+            <li>Signal Processing</li>
+            <li>Probabilistic Generative Modeling</li>
+        </ul>
 
-            <ul>
+        <h3>Current Research</h3>
 
-                <li>Diffusion Models</li>
+        <p>
+            My current work investigates diffusion posterior
+            sampling, uncertainty-aware reconstruction methods,
+            and generative modeling approaches for scientific
+            imaging and inverse problems.
+        </p>
 
-                <li>Inverse Problems</li>
+        <div class="button-group">
 
-                <li>Scientific Machine Learning</li>
-
-                <li>Bayesian Inference</li>
-
-                <li>Signal Processing</li>
-
-                <li>Probabilistic Modeling</li>
-
-            </ul>
-
-        </section>
-
-        <section id="projects">
-
-            <h3>Projects</h3>
-
-            <ul>
-
-                <li>
-                    Bayesian Non-parametric Active Learning
-                </li>
-
-                <li>
-                    Medical Image Classification using CNN
-                </li>
-
-                <li>
-                    Automated Image Captioning
-                </li>
-
-                <li>
-                    Face Recognition Attendance System
-                </li>
-
-            </ul>
-
-        </section>
-
-        <section id="publications">
-
-            <h3>Publications</h3>
-
-            <ul>
-
-                <li>
-                    Bayesian non-parametric active learning for ECCM
-                    in cognitive radar electronic warfare
-                    — IEEE Radar Conference 2025.
-                </li>
-
-                <li>
-                    Wasserstein mechanism for hiding cognition
-                    in Metacognitive Radars.
-                </li>
-
-            </ul>
-
-        </section>
-
-        <section id="contact">
-
-            <h3>Contact</h3>
-
-            <p>
-                Email:
-                vksnandhini@gmail.com
-            </p>
-
-            <a class="btn"
-               href="https://github.com/Nandhini-Girija"
-               target="_blank">
-
-                Visit My GitHub
-
+            <a class="btn" href="research.html">
+                Research
             </a>
 
-        </section>
+            <a class="btn" href="publications.html">
+                Publications
+            </a>
+
+            <a class="btn" href="contact.html">
+                Contact
+            </a>
+
+        </div>
 
     </div>
 
@@ -406,5 +361,5 @@ footer{
 </footer>
 
 </body>
-
 </html>
+```
